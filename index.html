@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>kalkulator</title>
+
+</head>
+<body>
+    <h1>Kalkulator Javascript</h1>
+    <div id="wraper">
+        <form>
+                <input type="number" id="result" value="" placeholder="0">
+                <input type="button" class="button numbers" value="1">
+                <input type="button" class="button numbers" value="2">
+                <input type="button" class="button numbers" value="3">
+                <input type="button" class="button numbers" value="4">
+                <input type="button" class="button numbers" value="5">
+                <input type="button" class="button numbers" value="6">
+                <input type="button" class="button numbers" value="7">
+                <input type="button" id="minus" class="button hover" value="-" onclick="task('minus')">
+                <input type="button" class="button numbers" value="8">
+                <input type="button" class="button numbers" value="9">
+                <input type="button" id="plus" class="button hover" value="+" onclick="task('plus')">
+                <input type="button" class="button hover" value="c" onclick="clean()">
+                <input type="button" class="button numbers" value="0">
+                <input type="button" id="multiply" class="button hover" value="*" onclick="task('multiply')">
+                <input type="button" id="divide" class="button hover" value="/" onclick="task('divide')">
+                <input type="button" class="button hover" value="=" onclick="calculate()">
+        </form>
+    </div>
+    <script type="text/javascript" src="script.js"></script> 
+</body>
+</html>
